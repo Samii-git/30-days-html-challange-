@@ -1,0 +1,49 @@
+/* Don't touch this file */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body{
+    padding: 3rem;
+}
+.card {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+    height: 5rem;
+    transition: .2s all ease;
+    box-shadow: 9px 9px 9px -5px rgba(0, 0, 0, 0.75);
+}
+.card:hover{
+    box-shadow: 7px 11px 16px -6px rgba(0, 0, 0,0.75);
+}
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+}
+.cards a{
+    text-decoration: none;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
