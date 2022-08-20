@@ -1,9 +1,9 @@
 body{
     background-color: rgb(160, 117, 200);
     align-content: center;
+    color:black;
 
 }
 h2{
-    text-align: center;
     color: blue;
 }

@@ -4,10 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Random Project Name</title>
+    <title>Day-2</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello this is a test project 2</h1>
+    <h1>Html picture Tag</h1>
+    <picture>
+      <source
+        media="(min-width:1000px)"
+        height="400px"
+        srcset="
+          https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80
+        "
+      />
+      <source
+        height="400px"
+        media="(min-width:750px)"
+        srcset="
+          https://i.gadgets360cdn.com/products/large/Galaxy-Tab-A7-launched-525x800-1601293535.jpg
+        "
+      />
+      <img
+        src="https://cdn1.smartprix.com/rx-ioKTQfBn2-w1200-h1200/oKTQfBn2.jpg"
+        alt="Phone"
+        style="width-auto;"
+        height="400px"
+      />
+    </picture>
   </body>
 </html>
