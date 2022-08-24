@@ -1,0 +1,31 @@
+body{
+    /* background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+color: azure; */
+background: #59C173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: aliceblue;
+}
+ h2{
+    color: mintcream;
+ }
+ ul{
+    list-style-type: disc;
+    background: #5D26C1;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ ol{
+    list-style-type: lower-alpha;
+    background: #3e2e5d;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ dl{
+   background: #214e2c;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
