@@ -1,0 +1,21 @@
+
+
+.if1{
+   background-color:powderblue;
+    
+}
+.if1 iframe{
+    border: 4px solid rebeccapurple;
+}
+  .if2{
+   background-color: rgb(56, 73, 133);
+  }   
+  .if2 a{
+    display: flex;
+    color: snow;
+    
+  }
+  .if2 iframe{
+    border-radius: 4px;
+    
+  }
