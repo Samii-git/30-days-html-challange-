@@ -1,0 +1,74 @@
+.flex-container{
+    background-color: rgb(23, 88, 166) ;
+    border: 4px solid blue;
+    display: flex;
+
+}
+.flex-items{
+    background-color: rgb(181, 172, 189);
+    border: 2px solid black;
+    margin: 8px ;
+    height: 120px;
+    width: 120px;
+}
+/* 2nd conntainer  */
+.flex-container2{
+    background-color: rgba(188, 29, 172, 0.149) ;
+    border: 4px solid rgb(168, 23, 90);
+    height: 200px;
+    display: flex;
+    /* flexbox properties */
+    flex-direction: row-reverse;
+justify-content: center;
+flex-wrap: wrap;
+}
+.flex-items2{
+    background-color: rgb(111, 70, 148);
+    border: 2px solid rgb(25, 6, 6);
+    margin: 8px ;
+    height: 100px;
+    width: 100px;
+}
+/* for container3 */
+.flex-container3{
+    background-color: rgba(244, 137, 233, 0.149) ;
+    border: 2px solid rgb(119, 31, 31);
+    height: 150px;
+    display: flex;
+    /* flexbox properties 3 */
+justify-content:flex-end;
+align-content: flex-end;
+flex-flow: row wrap;
+}
+/* styling child */
+.flex-container3 div:nth-child(even) {
+    background-color: red; 
+    }
+.flex-items3{
+    
+    border: 2px solid rgb(123, 25, 25);
+    margin: 8px ;
+    height: 100px;
+    width: 100px;
+} 
+/* for container4 */
+.flex-container4{
+    background-color: rgba(165, 60, 154, 0.149) ;
+    border: 2px solid rgb(173, 23, 23);
+    height: 150px;
+    display: flex;
+    /* flexbox properties 3 */
+justify-content: space-around;
+flex-flow: row wrap;
+}
+.flex-container4 div:nth-child(odd) {
+    background-color: rgb(203, 183, 32); 
+    }
+
+.flex-items4{
+    background-color: rgb(179, 139, 213);
+    border: 2px solid rgb(123, 25, 25);
+    margin: 8px ;
+    height: 100px;
+    width: 100px;
+}
