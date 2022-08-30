@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+background-color: rgb(191, 226, 226);
+}
+main{
+    width: 75%;
+    margin: 50px auto;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 70px 100px 200px 70px;
+    grid-template-columns: repeat(3,1fr) 150px;
+    color: white;
+    grid-gap: 20px;
+    padding: 20px 20px 20px 20px;
+}
+.header{ background-color: rgb(144, 18, 18);
+    grid-column:1/-1 ;
+}
+.box1{ background-color:blueviolet}
+
+.box2{ background-color: pink;}
+
+.box3{ background-color: rgb(198, 78, 34);}
+
+.sidebar{ background-color: green;
+    grid-row: 2/ span 2;
+    grid-column: 4/5;
+}
+.content{ background-color: lightcoral;
+grid-column: 1/ span 3;
+}
+.footer{ background-color: rgb(9, 39, 43);
+    grid-column: 1/-1 ;
+}

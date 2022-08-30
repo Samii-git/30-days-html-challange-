@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(202, 219, 220);
+}
+main{
+    width: 75%;
+    margin: 50px auto;
+    color: antiquewhite;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: 60px 200px 50px;
+    grid-template-columns:100px 1fr;
+    grid-gap: 20px;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+.header{ background-color:black ;
+    grid-column: 1/-1;
+}
+
+.sidebar{ background-color: green;
+    
+}
+
+.content{ background-color:purple ;}
+
+.footer{ background-color:rgb(8, 56, 62);
+    grid-column: 1/-1;
+}
+
