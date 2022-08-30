@@ -1,0 +1,55 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(17, 152, 236);
+  
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px black;
+    background-color: aliceblue;
+    transition: 0.3s;
+    padding: 20px 30px;
+    cursor: pointer;
+
+}
+.card:hover{
+    height: 320px;
+}
+.imgbox{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-80px);
+    z-index: 99;
+    
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px black;
+}
+#content{
+    padding: 10px 20px;
+    text-align: center;
+    transform: translateY(-180px);
+    opacity: 0;
+    transition: 00.3s;
+    
+    
+}
+
+.card:hover #content{
+    transform: translateY(-20px);
+    opacity: 2;
+
+}
+#content h2{
+    color: rgb(17, 152, 236);
+}
